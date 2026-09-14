@@ -6,8 +6,8 @@ Programa em Python que calcule descontos progressivos de acordo com o valor tota
 ### ✳️ Regras de desconto
 - Compras menores que R$ 200,00 recebem 5% de desconto.
 - Compras iguais ou superiores a R$ 200,00 e menores que R$ 300,00 recebem 10% de desconto.
-- Compras iguais ou superiores a R$ 300,00 recebem 15% de desconto
-- 
+- Compras iguais ou superiores a R$ 300,00 recebem 15% de desconto.
+ 
 ### 🛠️ Tecnologias e Conceitos Utilizados
 - Python 3
 - Estrutura condicional `if`, `elif` e `else`
