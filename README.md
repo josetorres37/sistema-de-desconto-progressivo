@@ -1,16 +1,34 @@
-# Sistema de Desconto Progressivo Automatizado — Agenda 06 (DSI I)
+### 🟢 Sistema de Desconto Progressivo Automatizado — Agenda 06 (DSI I)
 
 ### 📌 Sobre o Projeto
-Programa em Python que simula um ponto de venda, aplicando regras automáticas de descontos de forma progressiva. O software opera em regime de fluxo contínuo.
+Programa em Python que calcule descontos progressivos de acordo com o valor total da compra.
 
-### ⚙️ Lógica de Fluxo Contínuo (Loops)
-- **Laço de Repetição:** O sistema utiliza uma estrutura `while True` para manter o caixa aberto para infinitas operações sucessivas.
-- **Interrupção Controlada:** O programa monitora a entrada de dados. Caso o operador digite a string literal `'sair'`, o laço é quebrado via comando `break` e a memória é liberada.
-- **Tratamento de Exceções:** Erros de digitação (letras ou símbolos) acionam a instrução `continue`, impedindo que o programa sofra um encerramento forçado (*crash*).
-
+### ✳️ Regras de desconto
+- Compras menores que R$ 200,00 recebem 5% de desconto.
+- Compras iguais ou superiores a R$ 200,00 e menores que R$ 300,00 recebem 10% de desconto.
+- Compras iguais ou superiores a R$ 300,00 recebem 15% de desconto
+- 
 ### 🛠️ Tecnologias e Conceitos Utilizados
-- **Linguagem:** Python 3
-- **Estruturas Condicionais:** `if`, `elif`, `else`
-- **Controle de Fluxo:** `while`, `break`, `continue`
-- **Validação de Tipos:** `try/except` com captura de `ValueError`
+- Python 3
+- Estrutura condicional `if`, `elif` e `else`
+- Laço de repetição `while`
+- Tratamento de exceções com `try/except`
+
+### ⚙️ Como executar
+
+1. Instale o Python 3.
+2. Baixe ou clone este repositório.
+3. Execute o arquivo:
+
+```bash
+python JoseFlavioTorres_Ag6_DS_I.py
+```
+
+4. Informe o valor da compra.
+5. O programa exibirá o percentual de desconto, o valor descontado e o total a pagar.
+
+### 🔶 Exemplos de testes
+- R$ 100,00: desconto de 5%.
+- R$ 250,00: desconto de 10%.
+- R$ 300,00: desconto de 15%.
 - **Uso de IA:** Inteligência Artificial para validação técnica do algoritmo e automação de relatórios.
