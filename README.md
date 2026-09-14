@@ -30,5 +30,5 @@ python JoseFlavioTorres_Ag6_DS_I.py
 ### 🔶 Exemplos de testes
 - R$ 100,00: desconto de 5%.
 - R$ 250,00: desconto de 10%.
-- R$ 300,00: desconto de 15%.
+- R$ 400,00: desconto de 15%.
 - **Uso de IA:** Inteligência Artificial para validação técnica do algoritmo e automação de relatórios.
